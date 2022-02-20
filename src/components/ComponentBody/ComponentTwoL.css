@@ -1,0 +1,50 @@
+.componentTwoL .number{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline-flex;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 50px;
+    height: 55px;
+    justify-content:center;
+    align-items: center;
+   background-color: #fff;
+   position: relative;
+   font-weight: 600;
+   margin-bottom: 17px;
+}
+@media only screen and (max-width: 992px) {
+    .componentTwoL{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+}
+.componentTwoL .items-left{
+    width:100%;
+    margin-bottom: 11px;
+    height: 22px;
+    position: relative;
+    text-align: left;
+}
+.componentTwoL .items-left .span-left{
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    top: 2px;
+    left: 0;
+    bottom: 0;
+    background-color:#b9c6db;
+    border-radius: 20px 20px 1px 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.componentTwoL .items-left .span-right{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    right: 9px;
+    bottom: 0;
+}

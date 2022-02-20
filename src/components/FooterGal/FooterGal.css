@@ -1,0 +1,21 @@
+.footer-gal .col1, .footer-gal .col2, .footer-gal .col3, .footer-gal .col4{
+    position: relative;
+    height: 200px;
+    width: 230px;
+}
+.footer-gal .col1 img{
+    position: absolute;
+    bottom: 5px;
+}
+.footer-gal .col2 img{
+    position: absolute;
+    bottom: 10px;
+}
+.footer-gal .col3 img{
+    position: absolute;
+    bottom: 15px;
+}
+.footer-gal .col4 img{
+    position: absolute;
+    bottom: 45px;
+}

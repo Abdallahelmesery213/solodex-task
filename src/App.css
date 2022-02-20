@@ -1,0 +1,23 @@
+.App{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.App .footer-gal{
+    width: 70%;
+    margin: auto;
+    height: 200px;
+    position: relative;
+    display: flex;
+}
+@media only screen and (max-width: 992px) {
+    .App .footer-gal{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .App .footer-gal{
+        width: 40%;
+    }
+}

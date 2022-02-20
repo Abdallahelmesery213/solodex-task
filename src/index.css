@@ -1,0 +1,11 @@
+body {
+  
+  font-family: 'MyriadPro-Semibold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'MyriadPro-Semibold';
+  src: local('MyriadPro-Semibold'), url('./fonts/MyriadPro-Semibold.otf') ;
+}

@@ -1,0 +1,55 @@
+.componentTwoR .number{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline-flex;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 50px;
+    height: 55px;
+    justify-content:center;
+    align-items: center;
+   background-color: #fff;
+   position: relative;
+   font-weight: 600;
+   margin-bottom: 17px;
+}
+
+.componentTwoR .items-left{
+    width:100%;
+    margin-bottom: 11px;
+    height: 23px;
+    position: relative;
+    text-align: left;
+}
+.componentTwoR .items-left .span-left{
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    top: 2px;
+    right: 0;
+    bottom: 0;
+    background-color:#84a3c8;
+    border-radius: 20px 20px 1px 20px;
+    font-weight: 700;
+    padding-left: 8px;
+    font-size: 14px;
+}
+.componentTwoR .items-left .span-right{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    left: 17px;
+    bottom: 0;
+}
+@media only screen and (max-width: 992px) {
+    .componentTwoR{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    .componentTwoR .items-left .span-right{
+        left: 80px;
+    }
+}

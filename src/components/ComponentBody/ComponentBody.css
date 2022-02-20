@@ -1,0 +1,33 @@
+.componentBody .row1{
+    margin-top: 35px;
+}
+.componentBody .row1 .col-right{
+    width: 42% !important;
+    margin-left: 100px;
+}
+@media only screen and (max-width: 992px) {
+    .componentBody .row1 {
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+.componentBody .row1 .col-left{
+    width: 42% !important;
+}
+@media only screen and (max-width: 768px){
+    .componentBody .row1 .col-left, .componentBody .row1 .col-right{
+        margin: auto;
+    }
+}
+.componentBody .row1 h6{
+    color: #447eb0;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.componentBody .row1 p{
+    font-weight: 600;
+}
+.componentBody .compon3{
+    margin-top: -35px;
+}

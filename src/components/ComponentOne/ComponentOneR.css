@@ -1,0 +1,55 @@
+.componentOneR{
+    width: 188px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.componentOneR .img{
+    /* position: relative; */
+    border-top: 1px solid #d5d2d2;
+    border-left: 1px solid #d5d2d2;
+    border-bottom: 1px solid #d5d2d2;
+    border-radius: 40px 0 0 40px;
+    padding: 20px 30px 15px;
+    transform: rotate(-5deg);
+    display: inline-flex;
+    margin-top: 45px;
+}
+.componentOneR .img img{
+    transform: rotate(5deg);
+}
+.componentOneR .number{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline-flex;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 50px;
+    height: 55px;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 125px;
+   background-color: #fff;
+   position: relative;
+   z-index: 20;
+   font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+    .componentOneR{
+        margin-left: 32%;
+    }
+    .componentOneR .number{ 
+        margin-top: 20px !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .componentOneR{
+        margin-left: 37%;
+    }
+    .componentOneR .number{ 
+        margin-top: 20px !important;
+        margin-bottom: 50px;
+    }
+}

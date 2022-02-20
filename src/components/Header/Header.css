@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    min-height: 211px;
+    position: relative;
+    font-family: 'MyriadPro-Semibold';
+    text-transform: uppercase;
+}
+.header .header-content{
+    display:flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 10;
+    width:100%;
+    color: #447eb0;
+}
+.header .header-content h6{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.header .header-content p{
+    letter-spacing: 8px;
+    font-size: 20px;
+    color: #7ba5c9
+}
+.header .footer{
+    width:100%;
+    background-color: #447eb0;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.header .footer p{
+    color:#fff;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -62px;
+    letter-spacing: 6px;
+}
